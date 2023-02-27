@@ -1,0 +1,15 @@
+uart:
+  id: mod_bus
+  rx_pin: 3
+  tx_pin: 1
+  baud_rate: 9600
+  stop_bits: 1
+  
+#modbus:
+#  uart_id: mod_bus
+##  id: modbus1
+#modbus_controller:
+#  - id: sdm
+#    address: 0x0001
+#    modbus_id: modbus1
+#    update_interval: 5s
