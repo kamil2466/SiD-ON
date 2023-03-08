@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-C3-MINI-1-N4")(type "KiCad")(uri "C:/GitHub/SiD-ON/SiD-Touch/KiCad/library/ESP32-C3-MINI-1-N4/ESP32-C3-MINI-1-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "ACT45B-510-2P-TL003")(type "KiCad")(uri "C:/GitHub/SiD-ON/SiD-Touch/KiCad/library/ACT45B/ACT45B-510-2P-TL003.kicad_sym")(options "")(descr ""))
+)
