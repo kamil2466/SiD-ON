@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ACT45B")(type "KiCad")(uri "C:/GitHub/SiD-ON/SiD-Touch/KiCad/library/ACT45B")(options "")(descr ""))
+  (lib (name "ESP32-C3-MINI-1-N4")(type "KiCad")(uri "C:/GitHub/SiD-ON/SiD-Touch/KiCad/library/ESP32-C3-MINI-1-N4")(options "")(descr ""))
+  (lib (name "boneio - expansion module WT32-ETH01")(type "KiCad")(uri "C:/Users/Kamil/OneDrive/Desktop/PROJEKTY/boneio - expansion module WT32-ETH01")(options "")(descr ""))
+)

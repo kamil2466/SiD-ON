@@ -473,67 +473,6 @@
         )
       )
     )
-    (symbol "Device:D_Filled" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D_Filled" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Diode, filled shape" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D_Filled_0_1"
-        (polyline
-          (pts
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "D_Filled_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:D_Photo_Filled" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0.508 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -732,11 +671,11 @@
         )
       )
     )
-    (symbol "Device:L_Coupled" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:L_Coupled_1423" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at 0 4.445 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "L_Coupled" (at 0 -4.445 0)
+      (property "Value" "L_Coupled_1423" (at 0 -4.445 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -754,7 +693,7 @@
       (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "L_Coupled_0_1"
+      (symbol "L_Coupled_1423_0_1"
         (circle (center -3.048 -1.27) (radius 0.254)
           (stroke (width 0) (type default))
           (fill (type outline))
@@ -836,20 +775,20 @@
           (fill (type none))
         )
       )
-      (symbol "L_Coupled_1_1"
+      (symbol "L_Coupled_1423_1_1"
         (pin passive line (at -5.08 2.54 0) (length 2.54)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
+        (pin passive line (at -5.08 -2.54 0) (length 2.54)
           (name "2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 -2.54 0) (length 2.54)
+        (pin passive line (at 5.08 -2.54 180) (length 2.54)
           (name "3" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
+        (pin passive line (at 5.08 2.54 180) (length 2.54)
           (name "4" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
@@ -2005,6 +1944,9 @@
   (junction (at 108.585 133.985) (diameter 0) (color 0 0 0 0)
     (uuid 35b3b17d-bab7-4e03-9dc0-c8e232b80c8d)
   )
+  (junction (at 81.28 139.065) (diameter 0) (color 0 0 0 0)
+    (uuid 3cdb4793-1253-436e-95db-fd7ebd3af8c0)
+  )
   (junction (at 69.85 48.895) (diameter 0) (color 0 0 0 0)
     (uuid 450ab0de-2d01-4e64-ade7-9c2b4d896d97)
   )
@@ -2026,8 +1968,14 @@
   (junction (at 245.11 48.895) (diameter 0) (color 0 0 0 0)
     (uuid 721c1403-d631-4eeb-9e8e-19f143929769)
   )
+  (junction (at 94.615 133.985) (diameter 0) (color 0 0 0 0)
+    (uuid 76b92703-601b-443b-a85e-7dccd80a6fa2)
+  )
   (junction (at 147.32 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 7c4a9edf-f5b3-428d-941a-aac4bb5b098f)
+  )
+  (junction (at 95.25 139.065) (diameter 0) (color 0 0 0 0)
+    (uuid 85f5d3c2-2cce-4567-b401-74ccb6ac3139)
   )
   (junction (at 269.875 69.85) (diameter 0) (color 0 0 0 0)
     (uuid 93b22c50-a842-46ae-8f59-f8babf5ec31d)
@@ -2068,6 +2016,9 @@
   (junction (at 137.16 139.065) (diameter 0) (color 0 0 0 0)
     (uuid df57f001-b665-4508-8317-63cc4507a38e)
   )
+  (junction (at 81.28 133.985) (diameter 0) (color 0 0 0 0)
+    (uuid e02aaa5a-998c-466e-85be-0fac4c3b18c4)
+  )
   (junction (at 130.81 64.77) (diameter 0) (color 0 0 0 0)
     (uuid e9be8618-2c09-4404-a82f-78cadff96563)
   )
@@ -2085,7 +2036,7 @@
     (stroke (width 0) (type default))
     (uuid 0003a8a2-6c1d-47e7-8747-d18c024aa38b)
   )
-  (wire (pts (xy 108.585 133.985) (xy 93.345 133.985))
+  (wire (pts (xy 108.585 133.985) (xy 94.615 133.985))
     (stroke (width 0) (type default))
     (uuid 0090fa69-a832-44a3-a845-8b8f5b3769cd)
   )
@@ -2108,6 +2059,10 @@
   (wire (pts (xy 264.795 130.81) (xy 260.35 130.81))
     (stroke (width 0) (type default))
     (uuid 059c036e-3be6-4489-ac4e-8f44a82deca4)
+  )
+  (wire (pts (xy 95.25 142.24) (xy 92.71 142.24))
+    (stroke (width 0) (type default))
+    (uuid 06b7eb51-c249-42e0-98d3-bb8045dd05cd)
   )
   (wire (pts (xy 81.28 137.795) (xy 81.28 139.065))
     (stroke (width 0) (type default))
@@ -2221,6 +2176,10 @@
     (stroke (width 0) (type default))
     (uuid 2fb84f20-4f6d-40b3-b964-2baa96bf66ae)
   )
+  (wire (pts (xy 81.28 139.065) (xy 81.28 142.24))
+    (stroke (width 0) (type default))
+    (uuid 2fec68c7-af3b-4ea7-b3bc-b649cd797923)
+  )
   (wire (pts (xy 127.635 98.425) (xy 133.35 98.425))
     (stroke (width 0) (type default))
     (uuid 32a6c319-4171-442b-834a-451929182b28)
@@ -2292,6 +2251,10 @@
   (wire (pts (xy 97.79 139.065) (xy 118.745 139.065))
     (stroke (width 0) (type default))
     (uuid 4846c7ae-2c62-44ce-a6bb-9d926015e4dd)
+  )
+  (wire (pts (xy 81.28 130.175) (xy 84.455 130.175))
+    (stroke (width 0) (type default))
+    (uuid 4852eb1d-2e35-4400-91ef-61d7f1895077)
   )
   (wire (pts (xy 205.105 146.685) (xy 205.105 145.415))
     (stroke (width 0) (type default))
@@ -2389,6 +2352,10 @@
     (stroke (width 0) (type default))
     (uuid 6b006b7b-3cf2-4d1d-ba19-7d4ba0a7a84a)
   )
+  (wire (pts (xy 81.28 142.24) (xy 85.09 142.24))
+    (stroke (width 0) (type default))
+    (uuid 6b762fe0-30e1-46b4-9d73-71d03e6c37df)
+  )
   (wire (pts (xy 107.95 62.23) (xy 104.14 62.23))
     (stroke (width 0) (type default))
     (uuid 6cbb8dfc-48b0-4370-b439-cf0d8ea288eb)
@@ -2408,6 +2375,10 @@
   (wire (pts (xy 97.79 59.69) (xy 97.79 62.23))
     (stroke (width 0) (type default))
     (uuid 735d4738-121e-4fdb-b2ae-9f3d929476fb)
+  )
+  (wire (pts (xy 94.615 133.985) (xy 94.615 130.175))
+    (stroke (width 0) (type default))
+    (uuid 7531ed0d-bc5d-49e9-8d66-64bb1a8ecbbe)
   )
   (wire (pts (xy 114.935 188.595) (xy 120.015 188.595))
     (stroke (width 0) (type default))
@@ -2436,6 +2407,10 @@
   (wire (pts (xy 72.39 188.595) (xy 67.31 188.595))
     (stroke (width 0) (type default))
     (uuid 8006cb52-6d6e-4743-ac54-ab30e0b10438)
+  )
+  (wire (pts (xy 94.615 133.985) (xy 93.345 133.985))
+    (stroke (width 0) (type default))
+    (uuid 8108d5d2-1d44-4ff7-92bd-36228bf18875)
   )
   (wire (pts (xy 127.635 93.345) (xy 133.35 93.345))
     (stroke (width 0) (type default))
@@ -2517,6 +2492,10 @@
     (stroke (width 0) (type default))
     (uuid 9a48da54-c41c-4f94-acb1-2509738c9d12)
   )
+  (wire (pts (xy 94.615 130.175) (xy 92.075 130.175))
+    (stroke (width 0) (type default))
+    (uuid 9bbaa503-18e1-486e-96c0-bc55e3188d9b)
+  )
   (wire (pts (xy 205.105 132.08) (xy 205.105 132.715))
     (stroke (width 0) (type default))
     (uuid 9d5e8481-4d1f-4b75-9cf9-1d0f329cadf8)
@@ -2528,6 +2507,10 @@
   (wire (pts (xy 135.89 48.26) (xy 135.89 60.96))
     (stroke (width 0) (type default))
     (uuid a0ac88db-7eaf-499e-ada1-4807fd1cbbab)
+  )
+  (wire (pts (xy 95.25 139.065) (xy 93.345 139.065))
+    (stroke (width 0) (type default))
+    (uuid a2dbe328-b2b2-45d5-a9d3-df9340042ea6)
   )
   (wire (pts (xy 85.09 57.15) (xy 107.95 57.15))
     (stroke (width 0) (type default))
@@ -2561,6 +2544,10 @@
     (stroke (width 0) (type default))
     (uuid adfc21fe-17c1-49a7-92d1-9a31f5252407)
   )
+  (wire (pts (xy 95.25 139.065) (xy 95.25 142.24))
+    (stroke (width 0) (type default))
+    (uuid ae8bb50e-6b2e-44e5-99d8-8f119cc2ac57)
+  )
   (wire (pts (xy 97.79 54.61) (xy 97.79 59.69))
     (stroke (width 0) (type default))
     (uuid b1b41268-dbbe-48ae-9aff-a9ca528683b5)
@@ -2588,6 +2575,10 @@
   (wire (pts (xy 230.505 127) (xy 234.315 127))
     (stroke (width 0) (type default))
     (uuid b97ea54b-1393-497f-8fc2-120d917a2919)
+  )
+  (wire (pts (xy 81.28 133.985) (xy 81.28 130.175))
+    (stroke (width 0) (type default))
+    (uuid bb1ae77d-208a-43b2-82a2-ebd584334e53)
   )
   (wire (pts (xy 159.385 101.6) (xy 165.1 101.6))
     (stroke (width 0) (type default))
@@ -2757,7 +2748,7 @@
     (stroke (width 0) (type default))
     (uuid f4825921-6557-4378-999e-0b1208537b09)
   )
-  (wire (pts (xy 97.79 139.065) (xy 93.345 139.065))
+  (wire (pts (xy 97.79 139.065) (xy 95.25 139.065))
     (stroke (width 0) (type default))
     (uuid f5c5639d-19b9-461a-8b62-91c5353d0cb3)
   )
@@ -3078,7 +3069,7 @@
   (symbol (lib_id "power:+3.3V") (at 64.77 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04c38a2c-dc13-447e-85c4-d9b4bf095cf5)
-    (property "Reference" "#PWR020" (at 64.77 116.84 0)
+    (property "Reference" "#PWR05" (at 64.77 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 65.151 108.6358 0)
@@ -3094,7 +3085,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -3108,7 +3099,7 @@
   (symbol (lib_id "ESP32-EVB_Rev_I:GND") (at 97.79 155.575 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 084ca22c-044c-4256-af1b-221ed3481997)
-    (property "Reference" "#PWR025" (at 97.79 161.925 0)
+    (property "Reference" "#PWR012" (at 97.79 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 159.385 0)
@@ -3124,7 +3115,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -3138,13 +3129,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x06") (at 122.555 98.425 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 092485ed-8842-41dc-9f34-b760b5efefb0)
-    (property "Reference" "J4" (at 119.38 99.06 0)
+    (property "Reference" "J2" (at 119.38 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TOUCH_PINS" (at 128.27 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 122.555 98.425 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 122.555 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 122.555 98.425 0)
@@ -3159,7 +3150,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3168,7 +3159,7 @@
   (symbol (lib_id "Interface_CAN_LIN:SN65HVD230") (at 64.77 135.255 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bc52b17-b657-48f9-809d-1318d9c74240)
-    (property "Reference" "U3" (at 70.485 123.825 0)
+    (property "Reference" "U1" (at 70.485 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD230" (at 66.04 126.365 0)
@@ -3194,7 +3185,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -3208,7 +3199,7 @@
   (symbol (lib_id "Device:C") (at 245.11 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 103a0e4e-1d52-4565-933b-de7e53ddfbcd)
-    (property "Reference" "C4" (at 248.285 55.88 90)
+    (property "Reference" "C9" (at 248.285 55.88 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "100nF/C0603" (at 250.19 60.325 90)
@@ -3228,7 +3219,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C4") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3248,7 +3239,7 @@
     (property "Value" "JUMPER 120R" (at 143.51 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 142.24 128.905 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 142.24 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.24 128.905 0)
@@ -3268,7 +3259,7 @@
   (symbol (lib_id "Device:R") (at 250.825 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cff5f84-5776-4eb6-b3d2-e8990256729e)
-    (property "Reference" "R4" (at 250.19 135.255 90)
+    (property "Reference" "R13" (at 250.19 135.255 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "22R/R0603" (at 246.38 137.16 90)
@@ -3288,7 +3279,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R4") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -3302,7 +3293,7 @@
   (symbol (lib_id "Device:D_Photo_Filled") (at 125.095 188.595 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f2bdbf4-4478-4d16-8b74-3f40fc320448)
-    (property "Reference" "D8" (at 124.46 182.245 0)
+    (property "Reference" "D7" (at 124.46 182.245 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "LED_RED/L0603" (at 129.54 184.15 0)
@@ -3322,7 +3313,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "D8") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3336,7 +3327,7 @@
   (symbol (lib_id "Device:R") (at 111.125 188.595 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20b4a0f1-1076-4f14-9b0e-3d25e58a3a93)
-    (property "Reference" "R11" (at 112.395 186.055 90)
+    (property "Reference" "R7" (at 112.395 186.055 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.2k" (at 113.665 188.595 90)
@@ -3356,7 +3347,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R11") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -3370,7 +3361,7 @@
   (symbol (lib_id "power:+3.3V") (at 165.1 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 214d3208-a096-4c98-8e79-958ca6503405)
-    (property "Reference" "#PWR031" (at 165.1 96.52 0)
+    (property "Reference" "#PWR022" (at 165.1 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 165.1 87.63 0)
@@ -3386,7 +3377,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3400,7 +3391,7 @@
   (symbol (lib_id "power:+3.3V") (at 132.715 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 256b590a-33de-40cf-a3b9-6d7fd0156008)
-    (property "Reference" "#PWR027" (at 132.715 179.705 0)
+    (property "Reference" "#PWR016" (at 132.715 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 133.096 171.5008 0)
@@ -3416,7 +3407,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -3430,7 +3421,7 @@
   (symbol (lib_id "PESD1CAN:PESD1CAN") (at 116.205 145.415 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27245ad9-1a1c-4111-98ed-84b831d73fd7)
-    (property "Reference" "D4" (at 132.08 149.86 90)
+    (property "Reference" "D5" (at 132.08 149.86 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD1CAN" (at 128.27 152.4 90)
@@ -3451,7 +3442,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "D4") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -3465,7 +3456,7 @@
   (symbol (lib_id "Device:D_Photo_Filled") (at 147.32 66.675 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b23b132-deb2-41ff-8616-a9dc59e2a008)
-    (property "Reference" "D3" (at 151.765 66.04 0)
+    (property "Reference" "D8" (at 151.765 66.04 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "LED_RED/L0603" (at 153.67 60.96 0)
@@ -3485,7 +3476,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "D3") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3499,7 +3490,7 @@
   (symbol (lib_id "power:+3.3V") (at 260.35 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bb9a588-ded6-4fab-9543-5298656b1db5)
-    (property "Reference" "#PWR017" (at 260.35 131.445 0)
+    (property "Reference" "#PWR030" (at 260.35 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 260.35 122.555 0)
@@ -3515,7 +3506,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3529,7 +3520,7 @@
   (symbol (lib_id "Device:R") (at 50.8 145.415 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d6626ff-910a-4b41-947b-2816531df22d)
-    (property "Reference" "R8" (at 45.085 146.05 90)
+    (property "Reference" "R1" (at 45.085 146.05 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k/R0603" (at 46.99 149.86 90)
@@ -3549,7 +3540,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R8") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -3563,7 +3554,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 61.595 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3136c35b-5c3d-4064-9f22-8662eee55f02)
-    (property "Reference" "#FLG02" (at 61.595 44.45 0)
+    (property "Reference" "#FLG01" (at 61.595 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 61.595 41.91 0)
@@ -3579,7 +3570,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3590,10 +3581,44 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 88.265 130.175 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 35052670-4be9-4e24-9f31-811b8b53df06)
+    (property "Reference" "R4" (at 87.63 124.46 90)
+      (effects (font (size 1 1)) (justify left))
+    )
+    (property "Value" "0k/R0603" (at 83.82 126.365 90)
+      (effects (font (size 1 1)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 88.265 128.397 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.265 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25804" (at 88.265 128.27 90)
+      (effects (font (size 1 1)))
+    )
+    (pin "1" (uuid 7d6ecb9b-718c-4ec7-b044-474446dfdd11))
+    (pin "2" (uuid 8d96d66d-ae75-45c3-8064-cc002fade8fa))
+    (instances
+      (project "ESP32-Touch_board"
+        (path "/d70a78be-4422-4416-98f1-757de7245ee7"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "SIGMA Switch v0.2"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 269.875 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3684a3bb-a8ae-436b-95e2-fafed2826e58)
-    (property "Reference" "R3" (at 264.16 60.325 90)
+    (property "Reference" "R15" (at 264.16 60.325 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k/R0603" (at 266.065 64.135 90)
@@ -3613,7 +3638,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R3") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -3627,13 +3652,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x06") (at 154.305 99.06 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36921405-8e2a-4f29-b627-280db0a67691)
-    (property "Reference" "J5" (at 151.13 99.695 0)
+    (property "Reference" "J4" (at 151.13 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BUS_PINS" (at 160.02 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 154.305 99.06 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 154.305 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.305 99.06 0)
@@ -3648,7 +3673,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3657,7 +3682,7 @@
   (symbol (lib_id "power:GND") (at 133.35 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a9582f6-e16f-40e5-be89-ca287d13c6d0)
-    (property "Reference" "#PWR030" (at 133.35 115.57 0)
+    (property "Reference" "#PWR018" (at 133.35 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 114.3 0)
@@ -3673,7 +3698,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3687,7 +3712,7 @@
   (symbol (lib_id "power:GND") (at 55.88 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4093fd06-a9ce-40ef-b99a-0d1e9a980a0d)
-    (property "Reference" "#PWR01" (at 55.88 71.12 0)
+    (property "Reference" "#PWR04" (at 55.88 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 69.85 0)
@@ -3703,7 +3728,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3717,7 +3742,7 @@
   (symbol (lib_id "Device:R") (at 147.32 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40dff134-627b-4e55-a347-59ffded49e49)
-    (property "Reference" "R2" (at 149.86 56.515 90)
+    (property "Reference" "R9" (at 149.86 56.515 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "1.2k/R0603" (at 151.765 60.325 90)
@@ -3737,7 +3762,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R2") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3751,7 +3776,7 @@
   (symbol (lib_id "power:+3.3V") (at 133.35 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 456314b1-b903-45b4-a101-6587ac9b8652)
-    (property "Reference" "#PWR029" (at 133.35 95.885 0)
+    (property "Reference" "#PWR017" (at 133.35 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 133.35 86.995 0)
@@ -3767,7 +3792,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3821,7 +3846,7 @@
   (symbol (lib_id "Device:R") (at 224.155 127 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49e8bf3a-1647-4179-927c-220d7d8ef714)
-    (property "Reference" "R6" (at 223.52 121.285 90)
+    (property "Reference" "R11" (at 223.52 121.285 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k/R0603" (at 219.71 123.19 90)
@@ -3841,7 +3866,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R6") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -3855,7 +3880,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 139.065 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c1eb9de-40d3-43d5-8ca9-4ad1b2941fac)
-    (property "Reference" "#FLG03" (at 139.065 43.18 0)
+    (property "Reference" "#FLG02" (at 139.065 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 139.065 40.64 0)
@@ -3871,7 +3896,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3885,7 +3910,7 @@
   (symbol (lib_id "power:+3.3V") (at 255.27 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d62b335-0e53-4dd5-892b-56fe329202f7)
-    (property "Reference" "#PWR016" (at 255.27 51.435 0)
+    (property "Reference" "#PWR028" (at 255.27 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 255.27 42.545 0)
@@ -3901,7 +3926,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -3921,7 +3946,7 @@
     (property "Value" "Screw_Terminal_01x04" (at 31.75 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 31.75 59.69 0)
+    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical" (at 31.75 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.75 59.69 0)
@@ -3943,13 +3968,13 @@
   (symbol (lib_id "ESP32-C3-MINI-1-N4:ESP32-C3-MINI-1-N4") (at 218.44 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 531d522a-bd2b-471e-ac92-2521644e667d)
-    (property "Reference" "U1" (at 218.44 52.705 0)
+    (property "Reference" "U3" (at 218.44 52.705 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ESP32-C3-MINI-1-N4" (at 218.44 55.245 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "XCVR_ESP32-C3-MINI-1-N4" (at 218.44 74.93 0)
+    (property "Footprint" "ESP32-C3-MINI-1-N4:XCVR_ESP32-C3-MINI-1-N4" (at 218.44 74.93 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 218.44 74.93 0)
@@ -4031,7 +4056,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4040,7 +4065,7 @@
   (symbol (lib_id "Device:R") (at 224.155 140.335 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 542d8e35-24a8-4b87-a48d-ce1f221f5eba)
-    (property "Reference" "R7" (at 225.425 142.875 90)
+    (property "Reference" "R12" (at 225.425 142.875 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k/R0603" (at 228.6 144.78 90)
@@ -4060,7 +4085,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -4108,7 +4133,7 @@
   (symbol (lib_id "power:+3.3V") (at 72.39 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57a1e699-ba38-44d4-850f-26d52f47e3c3)
-    (property "Reference" "#PWR028" (at 72.39 179.705 0)
+    (property "Reference" "#PWR08" (at 72.39 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 72.771 171.5008 0)
@@ -4124,7 +4149,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -4138,7 +4163,7 @@
   (symbol (lib_id "power:GND") (at 255.27 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58070cb0-be4b-449f-8d21-5af02913f1e8)
-    (property "Reference" "#PWR011" (at 255.27 64.77 0)
+    (property "Reference" "#PWR029" (at 255.27 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 63.5 0)
@@ -4154,7 +4179,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4168,7 +4193,7 @@
   (symbol (lib_id "Device:R") (at 111.125 177.165 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a81e4c7-1da2-4ada-ae18-079bc70dd155)
-    (property "Reference" "R10" (at 112.395 174.625 90)
+    (property "Reference" "R6" (at 112.395 174.625 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.2k" (at 113.665 177.165 90)
@@ -4188,7 +4213,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R10") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -4202,7 +4227,7 @@
   (symbol (lib_id "Device:C") (at 52.07 118.745 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b2a271b-de2b-4a5a-830d-c5db9ec1cdef)
-    (property "Reference" "C7" (at 48.895 117.475 90)
+    (property "Reference" "C2" (at 48.895 117.475 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "100nF/C0603" (at 46.99 113.03 90)
@@ -4222,7 +4247,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C7") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4236,7 +4261,7 @@
   (symbol (lib_id "ESP32-EVB_Rev_I:GND") (at 50.8 155.575 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5dd1eeb6-64dc-4fd2-8419-f3733bfdb55e)
-    (property "Reference" "#PWR019" (at 50.8 161.925 0)
+    (property "Reference" "#PWR02" (at 50.8 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 159.385 0)
@@ -4252,7 +4277,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -4266,7 +4291,7 @@
   (symbol (lib_id "ESP32-EVB_Rev_I:GND") (at 64.77 155.575 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60f0f671-a677-410c-825f-8392517b6994)
-    (property "Reference" "#PWR022" (at 64.77 161.925 0)
+    (property "Reference" "#PWR06" (at 64.77 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 159.385 0)
@@ -4282,7 +4307,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -4296,7 +4321,7 @@
   (symbol (lib_id "power:GND") (at 147.32 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65a11749-05ff-40ec-bb84-a14a0ccb280e)
-    (property "Reference" "#PWR09" (at 147.32 81.28 0)
+    (property "Reference" "#PWR021" (at 147.32 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 80.01 0)
@@ -4312,7 +4337,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4326,7 +4351,7 @@
   (symbol (lib_id "power:GND") (at 181.61 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cc20d38-3c96-4e52-821a-3a3d82520fad)
-    (property "Reference" "#PWR013" (at 181.61 81.28 0)
+    (property "Reference" "#PWR025" (at 181.61 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 80.01 0)
@@ -4342,7 +4367,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4356,7 +4381,7 @@
   (symbol (lib_id "power:GND") (at 97.79 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e223e4b-1bbc-4f7f-8a00-9cce82b186d1)
-    (property "Reference" "#PWR05" (at 97.79 81.28 0)
+    (property "Reference" "#PWR011" (at 97.79 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 80.01 0)
@@ -4372,7 +4397,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4386,7 +4411,7 @@
   (symbol (lib_id "Device:C") (at 135.89 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fd8fad2-591a-4920-8159-3c21788e5f97)
-    (property "Reference" "C3" (at 139.065 66.04 90)
+    (property "Reference" "C7" (at 139.065 66.04 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "47uF/C1206" (at 140.97 70.485 90)
@@ -4406,7 +4431,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C3") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4455,7 +4480,7 @@
   (symbol (lib_id "Device:R") (at 50.8 177.165 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 748258bf-1659-42d6-ad52-fb9c65ce55e7)
-    (property "Reference" "R12" (at 52.07 170.815 90)
+    (property "Reference" "R2" (at 52.07 170.815 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "1.2k/R0603" (at 55.245 172.72 90)
@@ -4475,7 +4500,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R12") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4489,7 +4514,7 @@
   (symbol (lib_id "ESP32-EVB_Rev_I:GND") (at 41.275 124.46 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75da748a-33d0-4096-bd49-c732122c5fa8)
-    (property "Reference" "#PWR024" (at 41.275 130.81 0)
+    (property "Reference" "#PWR01" (at 41.275 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 128.27 0)
@@ -4505,7 +4530,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -4519,19 +4544,19 @@
   (symbol (lib_id "Device:C") (at 181.61 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 768dec0c-b733-4b79-9dfa-8c52e498d47c)
-    (property "Reference" "C6" (at 174.625 72.39 90)
+    (property "Reference" "C8" (at 174.625 72.39 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "1uF/C0805" (at 176.53 75.565 90)
+    (property "Value" "10uF/C0805" (at 176.53 75.565 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 182.5752 74.93 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 182.5752 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 181.61 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C111768" (at 178.435 71.12 90)
+    (property "JLCPCB" "C380314" (at 178.435 71.12 90)
       (effects (font (size 1 1)))
     )
     (pin "1" (uuid 8ec152fa-38fb-449f-bb36-e84d93ed4beb))
@@ -4539,7 +4564,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -4553,7 +4578,7 @@
   (symbol (lib_id "Device:R") (at 181.61 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76ba3447-5a0d-4e23-80fe-4fe0d5b9290e)
-    (property "Reference" "R1" (at 175.895 57.15 90)
+    (property "Reference" "R10" (at 175.895 57.15 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k/R0603" (at 177.8 60.96 90)
@@ -4573,7 +4598,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R1") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -4587,7 +4612,7 @@
   (symbol (lib_id "power:GND") (at 165.1 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79013739-9220-4f2d-9568-bf4ad211f178)
-    (property "Reference" "#PWR032" (at 165.1 116.205 0)
+    (property "Reference" "#PWR023" (at 165.1 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 114.935 0)
@@ -4603,7 +4628,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4617,19 +4642,19 @@
   (symbol (lib_id "Device:L_Small") (at 97.79 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bfd8d47-0f22-46da-9659-946623a17043)
-    (property "Reference" "L1" (at 92.075 50.165 90)
+    (property "Reference" "L2" (at 92.075 50.165 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "47uH/2.5A" (at 93.98 46.99 90)
+    (property "Value" "47uH/900mA" (at 93.98 46.355 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 97.79 52.07 0)
+    (property "Footprint" "Inductor_SMD:L_Sunlord_SWPA5040S" (at 97.79 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C436585" (at 95.885 51.435 90)
+    (property "JLCPCB" "C142114" (at 95.885 51.435 90)
       (effects (font (size 1 1)))
     )
     (pin "1" (uuid d72bf1b5-bf56-468c-bca8-e1d518ec90f0))
@@ -4637,7 +4662,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "L1") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4651,7 +4676,7 @@
   (symbol (lib_id "Device:R") (at 137.16 133.985 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e1740cf-5801-4fc0-a9b1-06be142dd876)
-    (property "Reference" "R9" (at 131.445 134.62 90)
+    (property "Reference" "R8" (at 131.445 134.62 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "120R/R0603" (at 133.35 138.43 90)
@@ -4671,7 +4696,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -4685,7 +4710,7 @@
   (symbol (lib_id "power:GND") (at 73.66 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f05ac98-fef7-4147-a069-81617a3175c1)
-    (property "Reference" "#PWR03" (at 73.66 81.28 0)
+    (property "Reference" "#PWR09" (at 73.66 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 80.01 0)
@@ -4701,7 +4726,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4715,10 +4740,10 @@
   (symbol (lib_id "Device:C") (at 108.585 147.955 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81d84477-8a45-4ece-99ea-796d136cd590)
-    (property "Reference" "C10" (at 101.6 146.685 90)
+    (property "Reference" "C6" (at 111.76 146.685 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100pF/C0603" (at 103.505 142.24 90)
+    (property "Value" "100pF/C0603" (at 113.03 142.24 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 107.6198 144.145 0)
@@ -4727,7 +4752,7 @@
     (property "Datasheet" "~" (at 108.585 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C14665" (at 105.41 147.955 90)
+    (property "JLCPCB" "C14665" (at 114.935 147.955 90)
       (effects (font (size 1 1)))
     )
     (pin "1" (uuid 72964c4a-35f7-46f0-b289-f300b6891c18))
@@ -4735,7 +4760,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C10") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4749,7 +4774,7 @@
   (symbol (lib_id "Device:R") (at 50.8 188.595 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84c33865-caf3-4d6b-8281-9e09864353af)
-    (property "Reference" "R13" (at 52.07 182.245 90)
+    (property "Reference" "R3" (at 52.07 182.245 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "1.2k/R0603" (at 55.245 184.15 90)
@@ -4769,7 +4794,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R13") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4783,7 +4808,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 73.66 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94854677-a91b-4d65-bbfc-2a3838f11ca4)
-    (property "Reference" "C1" (at 76.835 67.31 90)
+    (property "Reference" "C3" (at 76.835 67.31 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "100uF/35v" (at 78.74 71.12 90)
@@ -4803,7 +4828,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4817,7 +4842,7 @@
   (symbol (lib_id "ESP32-EVB_Rev_I:GND") (at 108.585 155.575 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d54e410-d0bb-4ca1-b76f-dac6aea9c0aa)
-    (property "Reference" "#PWR026" (at 108.585 161.925 0)
+    (property "Reference" "#PWR013" (at 108.585 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 108.585 159.385 0)
@@ -4833,7 +4858,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -4847,7 +4872,7 @@
   (symbol (lib_id "power:+3.3V") (at 181.61 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0048aa2-9951-4a14-96f2-5082d81c4b98)
-    (property "Reference" "#PWR014" (at 181.61 54.61 0)
+    (property "Reference" "#PWR024" (at 181.61 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 181.61 45.72 0)
@@ -4863,7 +4888,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4877,7 +4902,7 @@
   (symbol (lib_id "power:GND") (at 260.35 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a122e8de-29ed-43de-8d05-880425b33961)
-    (property "Reference" "#PWR018" (at 260.35 152.4 0)
+    (property "Reference" "#PWR031" (at 260.35 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 151.13 0)
@@ -4893,7 +4918,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4907,7 +4932,7 @@
   (symbol (lib_id "Device:R") (at 250.825 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a35907dc-2b63-40fa-adb6-cb18a039757d)
-    (property "Reference" "R5" (at 252.095 146.05 90)
+    (property "Reference" "R14" (at 252.095 146.05 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "22R/R0603" (at 255.27 147.32 90)
@@ -4927,7 +4952,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "R5") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -4941,7 +4966,7 @@
   (symbol (lib_id "power:+24V") (at 69.85 46.355 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5cbd34c-8836-4575-b04d-923d68c47339)
-    (property "Reference" "#PWR02" (at 69.85 50.165 0)
+    (property "Reference" "#PWR07" (at 69.85 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 69.469 41.9608 0)
@@ -4957,7 +4982,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -4968,13 +4993,47 @@
     )
   )
 
+  (symbol (lib_id "Device:D_Schottky") (at 97.79 66.04 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a5d79afb-3ade-416b-9a0a-cc1afaac9a56)
+    (property "Reference" "D4" (at 100.33 66.04 0)
+      (effects (font (size 1 1)))
+    )
+    (property "Value" "1N5819WS" (at 102.235 66.04 0)
+      (effects (font (size 1 1)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 97.79 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 97.79 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C64982" (at 104.14 66.04 0)
+      (effects (font (size 1 1)))
+    )
+    (pin "1" (uuid 76b34ada-bb19-4942-b8b1-e585f26c2b73))
+    (pin "2" (uuid ee3c8e01-8164-41ce-a5b6-903437c8ea13))
+    (instances
+      (project "ESP32-Touch_board"
+        (path "/d70a78be-4422-4416-98f1-757de7245ee7"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "SIGMA Switch v0.1"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 97.79 147.955 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a63bf020-692c-4c14-a589-5d9cc784cbaa)
-    (property "Reference" "C9" (at 90.805 146.685 90)
+    (property "Reference" "C5" (at 101.6 146.685 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100pF/C0603" (at 92.71 142.24 90)
+    (property "Value" "100pF/C0603" (at 102.87 142.24 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 96.8248 144.145 0)
@@ -4983,7 +5042,7 @@
     (property "Datasheet" "~" (at 97.79 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C14665" (at 94.615 147.955 90)
+    (property "JLCPCB" "C14665" (at 104.775 147.955 90)
       (effects (font (size 1 1)))
     )
     (pin "1" (uuid e862787a-309a-4f1f-9437-803f9d09c157))
@@ -4991,46 +5050,12 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C9") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Filled") (at 97.79 66.04 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ab03a373-7880-4dd9-8a6e-4b7f2709bcb7)
-    (property "Reference" "D2" (at 100.33 66.04 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Value" "SS34" (at 102.235 66.04 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "Diode_SMD:D_SMA" (at 97.79 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 97.79 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C8678" (at 104.14 66.04 0)
-      (effects (font (size 1 1)))
-    )
-    (pin "1" (uuid 1ccb348c-9715-4334-8ead-1c673e970936))
-    (pin "2" (uuid d047b4df-0728-49e2-be1d-2b512ba91b25))
-    (instances
-      (project "ESP32-Touch_board"
-        (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "SIGMA Switch v0.1"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D2") (unit 1)
         )
       )
     )
@@ -5074,7 +5099,7 @@
   (symbol (lib_id "Device:D_Photo_Filled") (at 64.77 188.595 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae4cfecc-11b4-4aff-90a8-97bebf8fbf04)
-    (property "Reference" "D6" (at 64.135 182.245 0)
+    (property "Reference" "D3" (at 64.135 182.245 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "LED_RED/L0603" (at 69.215 184.15 0)
@@ -5094,7 +5119,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "D6") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5108,7 +5133,7 @@
   (symbol (lib_id "power:+3.3V") (at 147.32 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b24ae296-c271-44d9-91e4-4edae9610b2b)
-    (property "Reference" "#PWR08" (at 147.32 49.53 0)
+    (property "Reference" "#PWR020" (at 147.32 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 147.32 40.64 0)
@@ -5124,7 +5149,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5138,7 +5163,7 @@
   (symbol (lib_id "power:+3.3V") (at 269.875 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b67d5326-6725-4c3f-bd57-ecef4d978458)
-    (property "Reference" "#PWR015" (at 269.875 51.435 0)
+    (property "Reference" "#PWR032" (at 269.875 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 269.875 42.545 0)
@@ -5154,7 +5179,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5168,19 +5193,19 @@
   (symbol (lib_id "Device:C") (at 41.275 118.745 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b712b3dc-b6d4-4ca6-8320-1c7501e0a721)
-    (property "Reference" "C8" (at 38.1 117.475 90)
+    (property "Reference" "C1" (at 38.1 117.475 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "1uF/C0805" (at 36.195 113.03 90)
+    (property "Value" "10uF/C0805" (at 36.195 113.03 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 40.3098 114.935 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 40.3098 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.275 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C111768" (at 34.29 118.11 90)
+    (property "JLCPCB" "C380314" (at 34.29 118.11 90)
       (effects (font (size 1 1)))
     )
     (pin "1" (uuid b85ba226-9716-4078-988c-3f05fec5dedb))
@@ -5188,7 +5213,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C8") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -5202,7 +5227,7 @@
   (symbol (lib_id "power:GND") (at 121.285 160.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb26ffdf-6b51-4c31-9595-70bad9ee6f82)
-    (property "Reference" "#PWR023" (at 121.285 167.005 0)
+    (property "Reference" "#PWR014" (at 121.285 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.285 164.465 0)
@@ -5218,7 +5243,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -5229,53 +5254,22 @@
     )
   )
 
-  (symbol (lib_id "Device:L_Coupled") (at 88.265 136.525 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bd924dcc-2756-4a86-8179-173fd17a02df)
-    (property "Reference" "L2" (at 88.265 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ACT45B-510" (at 88.265 128.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 88.265 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 88.265 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C76584" (at 88.265 131.445 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid d52131a2-5d1c-4689-9a44-35b31467c116))
-    (pin "2" (uuid b8520e00-ff42-4112-8176-a55a73f43054))
-    (pin "3" (uuid bd6f3627-de37-42fd-93a2-dad0b7b9491a))
-    (pin "4" (uuid 5fbbff8e-04a2-4b27-8611-5097a9156310))
-    (instances
-      (project "ESP32-Touch_board"
-        (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "L2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 255.27 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0aebf67-d2bf-40a6-bf4f-82b428e30e1f)
-    (property "Reference" "C5" (at 258.445 55.88 90)
+    (property "Reference" "C10" (at 258.445 55.88 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "1uF/C0805" (at 260.35 60.325 90)
+    (property "Value" "10uF/C0805" (at 260.35 60.325 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 256.2352 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 256.2352 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C111768" (at 262.255 55.245 90)
+    (property "JLCPCB" "C380314" (at 262.255 55.245 90)
       (effects (font (size 1 1)))
     )
     (pin "1" (uuid 6263c3e8-7673-4246-a7bc-020f8cec45dd))
@@ -5283,7 +5277,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C5") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "SIGMA Switch v0.2"
@@ -5294,10 +5288,44 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 88.9 142.24 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c2b6c004-dfdc-48fb-834d-769abc5f5e21)
+    (property "Reference" "R5" (at 89.535 147.955 90)
+      (effects (font (size 1 1)) (justify left))
+    )
+    (property "Value" "0k/R0603" (at 93.345 146.05 90)
+      (effects (font (size 1 1)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 88.9 144.018 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25804" (at 88.9 144.145 90)
+      (effects (font (size 1 1)))
+    )
+    (pin "1" (uuid f1d87746-59b7-4352-8481-ee16bde65e3a))
+    (pin "2" (uuid 2d723292-5687-4ba0-a86b-c5923085a29a))
+    (instances
+      (project "ESP32-Touch_board"
+        (path "/d70a78be-4422-4416-98f1-757de7245ee7"
+          (reference "R5") (unit 1)
+        )
+      )
+      (project "SIGMA Switch v0.2"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Photo_Filled") (at 64.77 177.165 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c681a8dd-36b1-4096-bffb-790d28b6eff4)
-    (property "Reference" "D5" (at 64.135 170.815 0)
+    (property "Reference" "D2" (at 64.135 170.815 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "LED_RED/L0603" (at 69.215 172.72 0)
@@ -5317,7 +5345,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5331,7 +5359,7 @@
   (symbol (lib_id "power:GND") (at 135.89 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid caed4cf2-0f6b-4c2c-9ce0-d2f57e5f1ba4)
-    (property "Reference" "#PWR07" (at 135.89 81.28 0)
+    (property "Reference" "#PWR019" (at 135.89 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 80.01 0)
@@ -5347,7 +5375,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5361,7 +5389,7 @@
   (symbol (lib_id "power:GND") (at 85.09 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd2f94ed-a956-4283-9e3a-e4ea6b8dffd6)
-    (property "Reference" "#PWR04" (at 85.09 81.28 0)
+    (property "Reference" "#PWR010" (at 85.09 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 80.01 0)
@@ -5377,7 +5405,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5391,7 +5419,7 @@
   (symbol (lib_id "power:GND") (at 241.935 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de620dc7-244c-487f-a429-ab601573762d)
-    (property "Reference" "#PWR012" (at 241.935 104.14 0)
+    (property "Reference" "#PWR026" (at 241.935 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.935 102.235 0)
@@ -5407,7 +5435,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5421,7 +5449,7 @@
   (symbol (lib_id "Device:D_Photo_Filled") (at 125.095 177.165 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e06d96a0-884e-4bab-bcc3-192deaf42a29)
-    (property "Reference" "D7" (at 124.46 170.815 0)
+    (property "Reference" "D6" (at 124.46 170.815 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "LED_RED/L0603" (at 129.54 172.72 0)
@@ -5441,7 +5469,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "D7") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5461,7 +5489,7 @@
     (property "Value" "1N5819WS" (at 63.5 61.595 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Diode_SMD:D_SMA" (at 63.5 57.15 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 63.5 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.5 57.15 0)
@@ -5486,10 +5514,41 @@
     )
   )
 
+  (symbol (lib_id "Device:L_Coupled_1423") (at 88.265 136.525 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e6583011-db54-4a53-97fb-b4c6005780aa)
+    (property "Reference" "L1" (at 97.79 132.715 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "ACT45B-510" (at 98.425 135.255 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "ACT45B:FIL_ACT45B-510-2P-TL003" (at 88.265 136.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.265 136.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C76584" (at 97.79 137.795 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid ffc94f01-7669-4fbb-8c84-6d75ad008207))
+    (pin "2" (uuid 99f2ef54-5e47-44f1-9681-be01012a70c7))
+    (pin "3" (uuid 23ce6edc-f652-4295-b660-b00619e96b71))
+    (pin "4" (uuid 669a986f-bae8-4839-a93b-d3a2a732e04f))
+    (instances
+      (project "ESP32-Touch_board"
+        (path "/d70a78be-4422-4416-98f1-757de7245ee7"
+          (reference "L1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ESP32-EVB_Rev_I:GND") (at 52.07 124.46 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed59bf99-0fc5-46b4-b294-db1bd2b55aae)
-    (property "Reference" "#PWR021" (at 52.07 130.81 0)
+    (property "Reference" "#PWR03" (at 52.07 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 128.27 0)
@@ -5505,7 +5564,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "boneIO - input WT32"
@@ -5519,7 +5578,7 @@
   (symbol (lib_id "Device:C") (at 85.09 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee7b88d9-0dd8-4813-9196-bf38773e5c77)
-    (property "Reference" "C2" (at 88.265 67.31 90)
+    (property "Reference" "C4" (at 88.265 67.31 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "100nF/C0603" (at 90.17 71.755 90)
@@ -5539,7 +5598,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5553,7 +5612,7 @@
   (symbol (lib_id "power:GND") (at 245.11 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f374c674-0fc2-4be7-b219-afc0ac377721)
-    (property "Reference" "#PWR010" (at 245.11 64.77 0)
+    (property "Reference" "#PWR027" (at 245.11 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 63.5 0)
@@ -5569,7 +5628,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
@@ -5583,13 +5642,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x06") (at 269.875 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd30af89-6df0-4d29-b311-d9ab3e54d600)
-    (property "Reference" "J2" (at 273.05 136.525 0)
+    (property "Reference" "J5" (at 273.05 136.525 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PROG" (at 267.335 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 269.875 135.89 0)
+    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" (at 269.875 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 269.875 135.89 0)
@@ -5604,7 +5663,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "J2") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -5613,7 +5672,7 @@
   (symbol (lib_id "power:GND") (at 130.81 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffe999d5-be50-446a-bcaf-4f17466d8ab8)
-    (property "Reference" "#PWR06" (at 130.81 81.28 0)
+    (property "Reference" "#PWR015" (at 130.81 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 80.01 0)
@@ -5629,7 +5688,7 @@
     (instances
       (project "ESP32-Touch_board"
         (path "/d70a78be-4422-4416-98f1-757de7245ee7"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "SIGMA Switch v0.1"
