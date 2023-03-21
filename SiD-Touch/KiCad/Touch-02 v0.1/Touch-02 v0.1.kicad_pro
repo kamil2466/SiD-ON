@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 20.0,
+          "width": 20.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -174,8 +174,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.5,
-        1.0
+        0.4,
+        0.7
       ],
       "via_dimensions": [
         {
@@ -412,7 +412,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32-Touch_board.kicad_pro",
+    "filename": "sensor_touch_1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -477,6 +477,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -489,7 +497,7 @@
   },
   "sheets": [
     [
-      "d70a78be-4422-4416-98f1-757de7245ee7",
+      "fd3b1c35-3d95-411e-8cf9-89524e3754c7",
       ""
     ]
   ],

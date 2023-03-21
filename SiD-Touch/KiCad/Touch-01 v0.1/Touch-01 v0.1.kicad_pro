@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 20.0,
+          "width": 20.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -174,8 +174,7 @@
       "track_widths": [
         0.0,
         0.2,
-        0.5,
-        1.0
+        0.5
       ],
       "via_dimensions": [
         {
@@ -412,7 +411,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32-Touch_board.kicad_pro",
+    "filename": "Touch-02 v0.1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -489,7 +488,7 @@
   },
   "sheets": [
     [
-      "d70a78be-4422-4416-98f1-757de7245ee7",
+      "f5ed57f5-aa64-442b-85fb-4cb6ff04c7f6",
       ""
     ]
   ],
